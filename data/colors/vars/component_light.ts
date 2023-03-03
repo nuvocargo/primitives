@@ -92,7 +92,7 @@ export default {
       border: get('border.subtle'),
       shadow: (theme: any) => `0 1px 0 ${alpha(get('scale.black'), 0.1)(theme)}`,
       insetShadow: (theme: any) => `inset 0 1px 0 ${alpha(get('scale.white'), 0.03)(theme)}`,
-      hoverBg: get('scale.green.5'),
+      hoverBg: get('scale.green.4'),
       hoverBorder: get('border.subtle'),
       selectedBg: darken(get('btn.primary.hoverBg'), 0.02),
       selectedShadow: (theme: any) => `inset 0 1px 0 ${alpha(get('scale.green.9'), 0.2)(theme)}`,
